@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galería de Juegos API</title>
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-4 shadow-sm">
+        <h1>Galería de Juegos API</h1>
+        <p class="lead">Búsqueda dinámica de juegos de STEAM con JavaScript</p>
+    </header>
+    <main class="container my-5" id="content">
+        <!-- Buscador -->
+        <div class="row mb-4">
+            <div class="col-12 col-md-6 mx-auto">
+                <input type="text" id="searchInput" class="form-control" placeholder="Buscar juego por nombre...">
+            </div>
+        </div>
+        <!-- Aquí se insertarán las tarjetas dinámicamente -->
+        <div id="cards-container"></div>
+        <div id="loader" class="text-center my-5">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p>Cargando datos...</p>
+        </div>
+    </main>
+ <footer class="bg-dark text-white text-center py-4">
+        <div>
+                <i class="bi bi-instagram"></i> Instagram: @wbarriosr &nbsp; | &nbsp; <i class="bi bi-github"></i> GitHub: WillyBarrios &nbsp; | &nbsp;  <i class="bi bi-twitter"></i> Twitter: @R_Barrios_
+        </div>
+        <div class="mt-2">
+                <i class="bi bi-envelope"></i> <a href="mailto:willybarrios@email.com" class="text-info text-decoration-none">desarrollo.wbarrios@gmail.com</a>
+        </div>
+    </footer>
+
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
