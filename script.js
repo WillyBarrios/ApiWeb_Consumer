@@ -1,7 +1,7 @@
-const API_URL = 'https://games-details.p.rapidapi.com/search?sugg=overwatch';
+const API_URL = 'leer TXT';
 const API_HEADERS = {
-    "x-rapidapi-host": "games-details.p.rapidapi.com",
-    "x-rapidapi-key": "d097b328e2mshfea2dec0fd47b6fp1a423bjsne2e3fab1d353"
+    "x-rapidapi-host": "Leer TXT",
+    "x-rapidapi-key": "Leer TXT"
 };
 
 let allGames = [];
