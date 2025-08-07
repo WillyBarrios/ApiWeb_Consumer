@@ -82,3 +82,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Mostrar fecha dinámica en el footer con formato DD/MM/YYYY
+document.addEventListener('DOMContentLoaded', () => {
+  const dateSpan = document.getElementById('dynamic-date');
+  if (dateSpan) {
+    const today = new Date();
+    const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth()+1).toString().padStart(2, '0')}/${today.getFullYear()}`;
+    dateSpan.textContent = formattedDate;
+  }
+});
