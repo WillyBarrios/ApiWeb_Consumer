@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchTerm.length > 2) { // para no buscar con pocas letras
             fetchGamesByQuery(searchTerm);
         } else {
-            // Si el campo está vacío, podrías mostrar los juegos populares o limpiar
+            // Si el campo está vacío, mostrar los juegos populares o limpiar
             cardsContainer.innerHTML = '';
         }
     });
